@@ -1,0 +1,93 @@
+.outer {
+    background: #eeeeee;
+    border-radius: 20px;
+    margin: 50px 80px 30px 80px;
+    padding: 20px;
+  }
+  .header h1 {
+    color: #008000;
+    font-size: 54px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .caption h4 {
+    font-family: consolas, sans-serif;
+    font-size: 16px;
+  }
+  .thumbnail { 
+    background: transparent; 
+    border: none;
+  }
+  .thumbnail img {
+    border-radius: 10%;
+  }
+  .intro p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 17px;
+    padding: 10px;
+  }
+  .timeline ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .timeline li {
+    padding-left: 6em;
+    text-indent: -1em;
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 17px;
+  }
+  
+  .timeline li:before {
+    content: "►";
+    padding-right: 5px;
+  }
+  .quotes h2 {
+    border: 2px #b30000 solid;
+    margin: 20px 80px 20px 80px;
+    padding: 20px;
+    font-family: Arial, verdana;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  .quotebox {
+    border: 2px #b30000 solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  .quotebox:hover {
+    background-color: #008000;
+    color: #FFFFFF;
+  }
+  .quotebox p {
+    font-family: consolas, verdana;
+    text-align: justify;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: bold;
+  }
+  .reference p {
+    font-family: "Trebuchet MS", verdana;
+    font-size: 20px;
+  }
+  .reference a:hover {
+    color: #00b300;
+  }
+  .footer {
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+  .footer p {
+    font-family: verdana;
+    font-size: 14px;
+    border-top: 1px #d8d8d8 solid;
+    text-align: center;
+  }
+  .footer a:hover {
+    color: #00b300;
+  }
+  
